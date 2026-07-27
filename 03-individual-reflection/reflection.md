@@ -10,7 +10,7 @@
 | Scan cá nhân | Liệt kê 8 problems từ bối cảnh học tập, lab, nhóm và đời sống cá nhân. | Có đủ pool ban đầu để chọn top 3 thay vì nhảy ngay vào một solution AI. |
 | Pitch Problem Card | Chuẩn bị và pitch 3 Problem Cards cá nhân: lập kế hoạch cá nhân, Weekly Lab Report, tìm lại quyết định trong Discord. | Trình bày được actor, workflow, bottleneck, metric và mức phù hợp với AI cho từng candidate cá nhân. |
 | Challenge bài của bản thân | Tự kiểm tra xem từng problem có quá rộng không, metric có đo được không, AI có cần thiết không. | Loại bớt cách nghĩ “làm Agent cho ngầu”, chuyển sang Workflow có human review. |
-| Challenge bài của bạn khác | Khi nghe các candidate khác, tập trung hỏi về actor, bottleneck, metric, evidence và boundary thay vì hỏi ngay solution. | Giúp nhóm so sánh các bài theo tiêu chí chung, nhất là khi chọn giữa CV/JD, tìm phòng trọ và sàng lọc paper. |
+| Challenge bài của bạn khác | Khi nghe các candidate khác, tôi dùng các câu hỏi challenge cụ thể về actor, bottleneck, metric, evidence và boundary. | Giúp nhóm so sánh các bài theo tiêu chí chung, nhất là khi chọn giữa CV/JD, tìm phòng trọ và sàng lọc paper. |
 | Gom trùng / cluster | Cùng nhóm nhìn các candidate theo cụm: hồ sơ/học thuật, báo cáo/năng suất học tập, tra cứu tri thức, tìm kiếm/đời sống. | Nhóm thấy bài CV/Cover Letter theo JD thuộc cụm hồ sơ/học thuật, có workflow và output rõ để làm pilot. |
 | Chọn candidate problem | Ban đầu tôi có problem cá nhân muốn pitch, nhưng sau khi so sánh nhóm đồng thuận chọn **Điều chỉnh CV và Cover Letter theo JD**. | Tôi chấp nhận đổi trọng tâm từ problem cá nhân sang candidate nhóm vì bài CV/JD có baseline, workflow và boundary rõ hơn cho bài nộp nhóm. |
 | Validation / research | Góp phần giữ các số liệu ở mức giả thuyết cần kiểm chứng: 20 phút/hồ sơ là self-report của một problem owner, chưa phải baseline đại diện. | Group report không khẳng định quá mức; quyết định chuyển sang pilot nhỏ thay vì tuyên bố solution đã hiệu quả. |
@@ -65,8 +65,15 @@ Nếu làm lại, tôi sẽ validation sớm hơn. Với bài CV/JD, tôi sẽ h
 - [x] Có reflection về cách dùng AI, chỗ AI hữu ích, chỗ AI hời hợt và phần tôi tự sửa.
 - [x] Tự giải thích được mạch problem → workflow → metric → boundary → AI fit → decision của nhóm.
 
-## 6. Các điểm cần cá nhân hóa trước khi nộp chính thức
+## 6. Câu hỏi challenge cụ thể tôi dùng để đóng góp
 
-- Nếu bạn có câu hỏi challenge cụ thể đã hỏi trong buổi nhóm, nên thêm nguyên văn 1–2 câu vào mục “Challenge bài của bạn khác”.
-- Nếu nhóm có timer log hoặc interview thật sau buổi lab, hãy thay các chỗ “self-report/giả thuyết cần kiểm chứng” bằng số liệu thật.
-- Nếu vai trò của bạn trong nhóm khác “thành viên góp ý/challenge/workflow”, hãy sửa bảng vai trò cho sát thực tế hơn.
+Các câu hỏi dưới đây là phần tôi dùng để challenge candidate nhóm, nhằm ép bài toán đi theo problem → workflow → metric → boundary thay vì nhảy thẳng sang tool AI:
+
+- Actor chính là ai: người chưa có việc, người đổi việc, hay sinh viên mới ra trường? Nếu gom tất cả lại thì workflow có còn giống nhau không?
+- Baseline 20 phút/hồ sơ đến từ một người; nhóm có thể đo lại bằng timer theo từng bước trước khi gọi đó là baseline không?
+- Bước đau nhất là đọc JD, map JD với master CV, viết lại bullet point hay viết Cover Letter? Nếu không tách bước, AI có thể tối ưu nhầm chỗ.
+- Nếu AI viết một claim nghe hay nhưng không có trong master CV, ai phát hiện và xử lý trước khi nộp?
+- Template hoặc Rule keyword có thể giải 70–80% case không? Nếu có thì vì sao vẫn cần Workflow AI?
+- Có tình huống nào Agent tự tìm job/tự nộp hồ sơ là quá rủi ro không? Nhóm rollback thế nào nếu AI sai?
+
+Những câu hỏi này làm tôi đổi cách nhìn: bài nhóm không nên là “AI tự động apply job”, mà là một workflow có kiểm soát, trong đó Rule xử lý phần rõ ràng, AI hỗ trợ map/draft phần mơ hồ, còn ứng viên chịu trách nhiệm bản cuối.
